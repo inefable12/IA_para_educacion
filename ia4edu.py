@@ -1,3 +1,11 @@
+# https://ia4edu.streamlit.app/
+# https://www.youtube.com/watch?v=1ssVH24LtTg&list=PLHS9v-hnVJahrh7Yxwm9X5-oH_fjc0O2R
+# Otros
+# https://aifindy.com/contacto
+# https://gamma.app/
+# https://www.futurepedia.io/ ($)
+# https://quillbot.com/ ($)
+
 import streamlit as st
 import pandas as pd
 import pip
@@ -7,13 +15,13 @@ import numpy as np
 from PIL import Image
 
 ##############
-st.sidebar.image("img/excel.png",
-                 caption="Curso para Docentes")
+st.sidebar.image("img/img_portada.jpg",
+                 caption="IA4EDU")
 
 #############################Pagina 1##############################    
 def Home():
     st.markdown("# Temario")
-    st.sidebar.markdown("# Excel Nivel Intermedio")
+    st.sidebar.markdown("# Inteligencia Artificial Aplicada a la Educación")
 
     total1, total2 = st.columns(2, gap='large')
     with total1:
