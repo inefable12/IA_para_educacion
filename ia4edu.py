@@ -78,52 +78,52 @@ def page2():
     st.write('''(b) Luego en la barra de herramientas clic en el icono “Dar formato como tabla” o usar el atajo Ctrl + T. Seleccione el estilo de color que mas le agrade. Finalmente dar aceptar verificando que la casilla de encabezados este marcada.''')    
     st.write('''(c) La apariencia cambiará de acuerdo a nuestra selección de estilo dando por finalizado el proceso.''')
     st.write('''(d) Crear un campo nuevo llamado Promedio y calcular el promedio simple de las 3 notas.''')
-    st.image("img/img1.png", caption="Tabla y promedio")  
+    #st.image("img/img1.png", caption="Tabla y promedio")  
     st.write('''(e) Crear un campo llamado Promedio2 que representa el promedio eliminando la nota mas baja. Use en la primera celda la formula.''')
     
     st.info('''=(SUMA(H2\:J2)-MIN(H2\:J2))/(CONTARA(H2\:J2)-1)''')
-    st.image("img/img2.png", caption="Tabla y promedio2")
+    #st.image("img/img2.png", caption="Tabla y promedio2")
 
     st.info("B. Filtro avanzado:")
     st.write('''(a) Crear una hoja nueva llamada Filtrar.''')
     st.write('''(b) En dos celdas contiguas colocar:''')
 
-    st.image("img/img3.png")
+    #st.image("img/img3.png")
 
     st.write('''Esto representa los criterios de aplicación del filtro.''') 
     st.write('''Nota: Debe ser escrito tal como esta en la base de datos.''')
     st.write('''(c) Usar el filtro avanzado''')
 
-    st.image("img/img4.png")
+    #st.image("img/img4.png")
     st.write('''(d) Seleccionar “Copiar a otro lugar”. En “Rango de la lista” seleccionar 
     la tabla de datos. En “Rango de criterios” seleccionar las celdas con los criterios de 
                 filtro de la hoja Filtrar. En “Copiar a” indicar donde serán colocados los datos filtrados. ''')
 
-    st.image("img/img5.png")
-    st.image("img/img6.png")
-    st.image("img/img7.png")
+    #st.image("img/img5.png")
+    #st.image("img/img6.png")
+    #st.image("img/img7.png")
 
     st.write("(e) Aplicar el siguiente filtro:")
-    st.image("img/img8.png")
-    st.image("img/img9.png")
+    #st.image("img/img8.png")
+    #st.image("img/img9.png")
   
     st.write("(f) Aplicar el siguiente filtro:")
-    st.image("img/img10.png")
-    st.image("img/img11.png")
+    #st.image("img/img10.png")
+    #st.image("img/img11.png")
 
     st.info("C. Quitar Duplicados")
     st.write("(a) Use la hoja base duplica y haga una copia.")
     st.write("(b) Dar formato de tabla.")
-    st.image("img/img12.png")
+    #st.image("img/img12.png")
     st.write('''(c) Cada vez que se ingrese a la tabla se activa la ficha 
     "Diseño de tabla" donde encontrará la opción "Quitar duplicado" ''')
-    st.image("img/img13.png")
+    #st.image("img/img13.png")
 
     st.write('''(d) Elegir el criterio de coincidencia, para este ejercicio 
     considerar ID estudiante, Apellido paterno, Apellido materno y Nombre. 
     Aceptar.''')
-    st.image("img/img14.png")
-    st.image("img/img15.png")
+    #st.image("img/img14.png")
+    #st.image("img/img15.png")
     st.write("Mensaje de Excel que indica la detección de duplicados y posterior eliminación.")
 
     st.info("Detección de valores duplicados mediante el uso de formato condicional")
@@ -134,25 +134,25 @@ def page2():
     st.write("(b) Seleccionar la columna que se usara para detectar registros duplicados.")
     st.write('''(c) Ir a “Formato condicional”, “Regla para resaltar celdas” y “Valores duplicados”''')
 
-    st.image("img/img16.png")
+    #st.image("img/img16.png")
 
     st.write("(d) Se puede elegir el formato que se usara para resaltar los registros duplicados.")
-    st.image("img/img17.png")
+    #st.image("img/img17.png")
 
     st.write("(e) Excel mostrara los duplicados de acuerdo al formato elegido.")
-    st.image("img/img18.png")
+    #st.image("img/img18.png")
 
     st.write('''(f) Para una mejor visualización de los registros duplicados puede hacer 
     uso de la opción de filtro que tiene la tabla. Primero aplicar “Ordenar de menor a 
     mayor” y luego “Ordenar por color”.''')
-    st.image("img/img19.png")
-    st.image("img/img20.png")
+    #st.image("img/img19.png")
+    #st.image("img/img20.png")
 
     st.write("(g) Se muestra el resultado a continuación.")
-    st.image("img/img21.png")
+    #st.image("img/img21.png")
 
     st.info("Validación de Datos")
-    st.image("img/img22.png")
+    #st.image("img/img22.png")
 
 
 
@@ -207,11 +207,11 @@ def page7():
 
   st.write('''Seleccionar... ''')
 
-  st.image("img/6_1.png")
-  st.image("img/6_2.png")
-  st.image("img/6_3.png")
-  st.image("img/6_4.png")
-  st.image("img/6_5.png")
+  #st.image("img/6_1.png")
+  #st.image("img/6_2.png")
+  #st.image("img/6_3.png")
+  #st.image("img/6_4.png")
+  #st.image("img/6_5.png")
 
 #############################Pagina 8##############################    
 
